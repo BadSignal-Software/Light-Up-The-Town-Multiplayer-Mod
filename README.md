@@ -20,7 +20,11 @@ Status: In Active Development (Alpha)
 
 📥 Installation
 
-(Installation instructions will be added as public builds become available.)
+Add the folder called "ue4ss" into "C:\SteamLibrary\steamapps\common\Light Up The Town\LightUpTheTown\Binaries\Win64"
+
+This Folder is found in the zip file attached, which is named MultiplayerModTest?.zip
+
+(More installation instructions will be added as public builds become available.)
 
 💬 Community & Support
 
