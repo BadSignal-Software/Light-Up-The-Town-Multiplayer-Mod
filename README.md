@@ -8,9 +8,9 @@ This mod aims to bring multiplayer functionality to Light Up The Town. Please no
 
 🛠️ Development Team
 
-ShadowCanvas815 - Main Developer
+ShadowCanvas- Main Developer
 
-Shadowgamingyt - Assistant Developer & QA Tester
+CtrlSoftware - Assistant Developer & QA Tester
 
 ⚡ Current Status & Features
 
