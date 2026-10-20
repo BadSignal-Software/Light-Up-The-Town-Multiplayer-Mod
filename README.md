@@ -1,6 +1,6 @@
 Light Up The Town - Multiplayer Mod
 
-A multiplayer modification for Light Up The Town, developed by Shadow_sOftw4re.
+A multiplayer modification for Light Up The Town, developed by ShadowCanvas815 and Shadow_sOftw4re.
 
 📌 Project Overview
 
