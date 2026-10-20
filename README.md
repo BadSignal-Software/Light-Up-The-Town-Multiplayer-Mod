@@ -14,7 +14,7 @@ CtrlSoftware - Assistant Developer & QA Tester
 
 ⚡ Current Status & Features
 
-Current Version: v0.03
+Current Version: v0.08
 
 Status: In Active Development (Alpha)
 
