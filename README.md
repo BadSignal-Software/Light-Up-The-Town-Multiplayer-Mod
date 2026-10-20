@@ -1,4 +1,4 @@
-Light Up The Town - Multiplayer Mod
+Light Up The Town - Multiplayer Mod (Lutt-Net)
 
 A multiplayer modification for Light Up The Town, developed by ShadowCanvas815 and Shadow_sOftw4re.
 
