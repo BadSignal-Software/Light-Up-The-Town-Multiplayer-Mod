@@ -14,6 +14,10 @@ A multiplayer modification for **Light Up The Town**, created by **ShadowCanvas8
 
 > ⚠️ **Note:** This project is currently in **early alpha development (v0.08)**. Features are actively being built, tested, and updated. Expect bugs and frequent updates.
 
+Estimated Completion Date: 1 - 2 months.
+
+- [x] Are we on track for completion date?
+
 ---
 
 ## 🛠️ Development Team
@@ -21,7 +25,7 @@ A multiplayer modification for **Light Up The Town**, created by **ShadowCanvas8
 | Name | Role |
 | :--- | :--- |
 | **ShadowCanvas** (`ShadowCanvas815`) | Main Developer |
-| **CtrlSoftware** (`Ctr1_sOftw4re`) | Assistant Developer & QA Tester |
+| **CtrlSoftware** (`Shadow_sOftw4re`) | Assistant Developer & QA Tester |
 
 ---
 
@@ -37,7 +41,7 @@ A multiplayer modification for **Light Up The Town**, created by **ShadowCanvas8
 
 ### Step 1: Download & Prerequisites
 1. Ensure **Python 3.x** is installed on your system ([Download Python](https://www.python.org/downloads/)).
-2. Download the latest `MultiplayerMod.zip` from the [Releases page](../../releases).
+2. Download the latest `MultiplayerModTest.zip` from the [Releases page](../../releases).
 
 ### Step 2: Extract Mod Files
 Navigate to your game installation directory, typically located at:
