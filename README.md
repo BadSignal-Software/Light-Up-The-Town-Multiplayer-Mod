@@ -93,7 +93,7 @@ To connect with players outside your local network, select one of the following 
 
 - [ ] In-game GUI interface
 - [ ] Automated room code system (no command line required)
-- [ ] One-click launcher / automatic setup
+- [ ] Super easy installation
 - [ ] Stability fixes and sync optimization
 
 ---
