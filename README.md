@@ -31,7 +31,7 @@ Are we on track for completion date? ✅
 
 ## ⚡ Current Status & Features
 
-* **Current Version:** `v0.08`
+* **Current Version:** `v0.11`
 * **Development Phase:** Early Alpha
 * **Core Architecture:** UE4SS Injection + Python Bridge (`bridge.py`)
 
