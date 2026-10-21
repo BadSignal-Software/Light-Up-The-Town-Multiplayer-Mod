@@ -18,6 +18,11 @@ Estimated Completion Date: 1 - 2 months.
 
 Are we on track for completion date? ✅
 
+Newest addition to the mod - Bean (temp model) and animations
+Main problem - Lights syncing and textures
+
+Please contact us if you have anything that may help us (Do the thing with issues idk what its called)
+
 ---
 
 ## 🛠️ Development Team
