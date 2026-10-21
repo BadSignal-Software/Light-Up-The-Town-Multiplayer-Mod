@@ -106,4 +106,4 @@ Got feedback, bug reports, or questions?
 * 📢 **Updates:** Keep an eye on this repository for new releases and updates!
 
 ---
-*Developed with ❤️ by ShadowCanvas & Shadow_sOftw4re.*
+*Developed by ShadowCanvas & Shadow_sOftw4re.*
