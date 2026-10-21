@@ -1,7 +1,7 @@
 # Light Up The Town - Multiplayer Mod (Lutt-Net) 💡🌐
 
 [![Status](https://img.shields.io/badge/Status-Alpha%20Development-orange)](#)
-[![Version](https://img.shields.io/badge/Version-v0.14-blue)](#)
+[![Version](https://img.shields.io/badge/Version-v1.4-blue)](#)
 [![Engine](https://img.shields.io/badge/Engine-Unreal%20Engine%204%2F5-informational)](#)
 
 A multiplayer modification for **Light Up The Town**, created by **ShadowCanvas815** and **Shadow_sOftw4re**.
