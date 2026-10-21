@@ -95,11 +95,11 @@ To connect with players outside your local network, select one of the following 
 
 ## 🔗 Helpful links ##
 
-1. Game's Store Page:
+1. Game's Store Page: https://store.steampowered.com/app/3419910/Light_Up_The_Town/
    
-2. Python: https://www.python.org/downloads/
+2. Python Download: https://www.python.org/downloads/
 
-3. Tailscale: https://tailscale.com/
+3. Tailscale Download: https://tailscale.com/
 
 ---
 
