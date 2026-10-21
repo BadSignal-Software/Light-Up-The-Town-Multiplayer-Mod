@@ -16,7 +16,7 @@ A multiplayer modification for **Light Up The Town**, created by **ShadowCanvas8
 
 Estimated Completion Date: 1 - 2 months.
 
-Are we on track for completion date? - [x]
+Are we on track for completion date? ✅
 
 ---
 
