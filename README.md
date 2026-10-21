@@ -30,8 +30,8 @@ Please contact us if you have anything that may help us (Do the thing with issue
 
 | Name | Role |
 | :--- | :--- |
-| **ShadowCanvas** (`ShadowCanvas815`) | Main Developer |
-| **CtrlSoftware** (`Ctr1_sOftw4re`) | Assistant Developer & QA Tester |
+| **ShadowCanvas** (`ShadowCanvas815`) | Main Developer & Networking / multiplayer Developer |
+| **CtrlSoftware** (`Ctr1_sOftw4re`) | Assistant Developer, Texture & Animations Developer & QA Tester |
 
 ---
 
