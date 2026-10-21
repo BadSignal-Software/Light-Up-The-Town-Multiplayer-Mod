@@ -91,6 +91,8 @@ python bridge.py join <HOST_IP_OR_DOMAIN> 7777
 
 ## 🌐 Networking Setup Options
 
+‼️ WE ARE PLANNING TO MAKE MULTIPLAYER JOINING MUCH SIMPLER LATER ON ONCE WE HAVE THE BASICS OF THE MOD DOWN - ADDING ROOM CODES ‼️
+
 To play with people outside your local network, pick one of the following methods.
 
 ### Method 1: Tailscale (Recommended)
