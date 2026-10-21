@@ -106,7 +106,7 @@ To play with people outside your local network, pick one of the following method
 1. Open your router settings and forward port `7777` (UDP/TCP) to the host machine.
 2. Use the host's public IP address or a Dynamic DNS (DDNS) hostname.
 
-> **Note:** Make sure your ISP doesn't put you behind CGNAT, as this prevents port forwarding from working.
+> **Note:** Make sure your ISP doesn't put you behind CGNAT, as this prevents port forwarding from working, this is only relevant if you are using method 2.
 
 ---
 
