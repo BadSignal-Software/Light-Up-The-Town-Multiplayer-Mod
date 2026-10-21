@@ -24,6 +24,8 @@ Add the folder called "ue4ss" into "C:\SteamLibrary\steamapps\common\Light Up Th
 
 This Folder is found in the zip file attached, which is named MultiplayerModTest?.zip
 
+Next, put dwmapi in "c:\SteamLibrary\steamapps\common\Light Up The Town\LightUpTheTown\Binaries\Win64" as this allows for mod injection
+
 (More installation instructions will be added as public builds become available.)
 
 💬 Community & Support
