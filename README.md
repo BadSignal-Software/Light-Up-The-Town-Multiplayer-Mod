@@ -93,6 +93,16 @@ To connect with players outside your local network, select one of the following 
 
 ---
 
+## 🔗 Helpful links ##
+
+1. Game's Store Page:
+   
+2. Python: https://www.python.org/downloads/
+
+3. Tailscale: https://tailscale.com/
+
+---
+
 ## 🗺️ Roadmap & Future Improvements
 
 - [ ] In-game GUI interface
