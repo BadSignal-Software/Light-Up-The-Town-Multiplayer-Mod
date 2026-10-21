@@ -1,37 +1,5 @@
-Light Up The Town - Multiplayer Mod (Lutt-Net)
-
-A multiplayer modification for Light Up The Town, developed by ShadowCanvas815 and Shadow_sOftw4re.
-
-📌 Project Overview
-
-This mod aims to bring multiplayer functionality to Light Up The Town. Please note that this project is currently in early development (v0.03), and features are actively being built and tested.
-
-🛠️ Development Team
-
-ShadowCanvas- Main Developer
-
-CtrlSoftware - Assistant Developer & QA Tester
-
-⚡ Current Status & Features
-
-Current Version: v0.08
-
-Status: In Active Development (Alpha)
-
-📥 Installation
-
-Add the folder called "ue4ss" into "C:\SteamLibrary\steamapps\common\Light Up The Town\LightUpTheTown\Binaries\Win64"
-
-This Folder is found in the zip file attached, which is named MultiplayerModTest?.zip
-
-Next, put dwmapi in "c:\SteamLibrary\steamapps\common\Light Up The Town\LightUpTheTown\Binaries\Win64" as this allows for mod injection
-
-(More installation instructions will be added as public builds become available.)
-
-💬 Community & Support
-
-Got feedback, bug reports, or questions?
-
-Open an Issue on this repository.
-
-Stay tuned for updates as development progresses!
+Light Up The Town - Multiplayer Mod (Lutt-Net) 💡🌐A multiplayer modification for Light Up The Town, created by ShadowCanvas815 and Shadow_sOftw4re.📌 Project OverviewLutt-Net aims to bring seamless multiplayer functionality to Light Up The Town.⚠️ Note: This project is currently in early alpha development (v0.08). Features are actively being built, tested, and updated. Expect bugs and frequent updates.🛠️ Development TeamNameRoleShadowCanvas (ShadowCanvas815)Main DeveloperCtrlSoftware (Shadow_sOftw4re)Assistant Developer & QA Tester⚡ Current Status & FeaturesCurrent Version: v0.08Development Phase: Early AlphaCore Architecture: UE4SS Injection + Python Bridge (bridge.py)📥 Installation GuideStep 1: Download & PrerequisitesEnsure Python 3.x is installed on your system (Download Python).Download the latest MultiplayerModTest.zip from the Releases page.Step 2: Extract Mod FilesNavigate to your game installation directory, typically located at:C:\SteamLibrary\steamapps\common\Light Up The Town\LightUpTheTown\Binaries\Win64
+Extract the ue4ss folder from the zip file into the directory above.Place dwmapi.dll into the same directory (Win64) to enable mod injection.🚀 How to Run & ConnectStep 1: Open the Mod DirectoryNavigate to:C:\SteamLibrary\steamapps\common\Light Up The Town\LightUpTheTown\Binaries\Win64\ue4ss\Mods\LUTTNet
+Click on the folder directory bar at the top, type cmd, and press Enter to open Command Prompt directly in this folder.Step 2: Launch the Connection BridgeTo Host a Game:python bridge.py host 7777
+To Join a Game:python bridge.py join <HOST_IP_OR_DOMAIN> 7777
+🌐 Networking Setup OptionsTo connect with players outside your local network, select one of the following methods:Method 1: Tailscale (Recommended)Install Tailscale on both machines.Invite your friend to your Tailnet.Replace <HOST_IP_OR_DOMAIN> with the Host’s Tailscale IP or Tailscale domain name.Method 2: Port ForwardingAccess your router settings and forward port 7777 (UDP/TCP).Use your Public IP address or a Dynamic DNS (DDNS) host.Note: Ensure your ISP does not put you behind CGNAT, as this prevents port forwarding from working.🗺️ Roadmap & Future Improvements[ ] In-game GUI interface[ ] Automated room code system (no command line required)[ ] One-click launcher / automatic setup[ ] Stability fixes and sync optimization💬 Community & SupportGot feedback, bug reports, or questions?🐛 Bug Reports & Ideas: Open an Issue on this repository.📢 Updates: Keep an eye on this repository for new releases and updates!Developed with ❤️ by ShadowCanvas & Shadow_sOftw4re.
