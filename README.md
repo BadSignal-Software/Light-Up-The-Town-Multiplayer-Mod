@@ -25,7 +25,7 @@ Estimated Completion Date: 1 - 2 months.
 | Name | Role |
 | :--- | :--- |
 | **ShadowCanvas** (`ShadowCanvas815`) | Main Developer |
-| **CtrlSoftware** (`Shadow_sOftw4re`) | Assistant Developer & QA Tester |
+| **CtrlSoftware** (`Ctr1_sOftw4re`) | Assistant Developer & QA Tester |
 
 ---
 
