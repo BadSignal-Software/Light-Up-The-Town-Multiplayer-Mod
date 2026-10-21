@@ -12,7 +12,7 @@ A multiplayer modification for **Light Up The Town**, created by **ShadowCanvas8
 
 **Lutt-Net** aims to bring seamless multiplayer functionality to *Light Up The Town*. 
 
-> ⚠️ **Note:** This project is currently in **early alpha development (v0.08)**. Features are actively being built, tested, and updated. Expect bugs and frequent updates.
+> ⚠️ **Note:** This project is currently in **early alpha development **. Features are actively being built, tested, and updated. Expect bugs and frequent updates .
 
 Estimated Completion Date: 1 - 2 months.
 
