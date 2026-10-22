@@ -34,7 +34,7 @@ If you have anything that could help us, please [open an issue](../../issues) on
 
 ## ⚡ Current Status & Features
 
-- **Current version:** `v0.11`
+- **Current version:** `v0.14`
 - **Development phase:** Early alpha
 - **Build stability:** Unstable
 - **Core architecture:** UE4SS injection + Python bridge (`bridge.py`)
