@@ -1,0 +1,2 @@
+*.lua linguist-language=Lua
+*.py linguist-language=Python
