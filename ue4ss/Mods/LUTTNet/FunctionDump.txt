@@ -1,0 +1,803 @@
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:ApplySaveInfo
+  Info : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  Success : BoolProperty
+  CallFunc_GetLocationFromTransform__ : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_K2_SetWorldLocation_SweepHitResult : StructProperty <HitResult>
+      FaceIndex : IntProperty
+      Time : FloatProperty
+      Distance : FloatProperty
+      Location : StructProperty <Vector_NetQuantize>
+      ImpactPoint : StructProperty <Vector_NetQuantize>
+      Normal : StructProperty <Vector_NetQuantizeNormal>
+      ImpactNormal : StructProperty <Vector_NetQuantizeNormal>
+      TraceStart : StructProperty <Vector_NetQuantize>
+      TraceEnd : StructProperty <Vector_NetQuantize>
+      PenetrationDepth : FloatProperty
+      MyItem : IntProperty
+      Item : IntProperty
+      ElementIndex : ByteProperty
+      bBlockingHit : BoolProperty
+      bStartPenetrating : BoolProperty
+      PhysMaterial : WeakObjectProperty
+      HitObjectHandle : StructProperty <ActorInstanceHandle>
+          ReferenceObject : WeakObjectProperty
+      Component : WeakObjectProperty
+      BoneName : NameProperty
+      MyBoneName : NameProperty
+  CallFunc_K2_SetWorldLocation_SweepHitResult_1 : StructProperty <HitResult>
+      FaceIndex : IntProperty
+      Time : FloatProperty
+      Distance : FloatProperty
+      Location : StructProperty <Vector_NetQuantize>
+      ImpactPoint : StructProperty <Vector_NetQuantize>
+      Normal : StructProperty <Vector_NetQuantizeNormal>
+      ImpactNormal : StructProperty <Vector_NetQuantizeNormal>
+      TraceStart : StructProperty <Vector_NetQuantize>
+      TraceEnd : StructProperty <Vector_NetQuantize>
+      PenetrationDepth : FloatProperty
+      MyItem : IntProperty
+      Item : IntProperty
+      ElementIndex : ByteProperty
+      bBlockingHit : BoolProperty
+      bStartPenetrating : BoolProperty
+      PhysMaterial : WeakObjectProperty
+      HitObjectHandle : StructProperty <ActorInstanceHandle>
+          ReferenceObject : WeakObjectProperty
+      Component : WeakObjectProperty
+      BoneName : NameProperty
+      MyBoneName : NameProperty
+  K2Node_VariableSet_CableLength_ImplicitCast : FloatProperty
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:AttachToWorldHit
+  Sphere : ObjectProperty
+  Hit : StructProperty <HitResult>
+      FaceIndex : IntProperty
+      Time : FloatProperty
+      Distance : FloatProperty
+      Location : StructProperty <Vector_NetQuantize>
+      ImpactPoint : StructProperty <Vector_NetQuantize>
+      Normal : StructProperty <Vector_NetQuantizeNormal>
+      ImpactNormal : StructProperty <Vector_NetQuantizeNormal>
+      TraceStart : StructProperty <Vector_NetQuantize>
+      TraceEnd : StructProperty <Vector_NetQuantize>
+      PenetrationDepth : FloatProperty
+      MyItem : IntProperty
+      Item : IntProperty
+      ElementIndex : ByteProperty
+      bBlockingHit : BoolProperty
+      bStartPenetrating : BoolProperty
+      PhysMaterial : WeakObjectProperty
+      HitObjectHandle : StructProperty <ActorInstanceHandle>
+          ReferenceObject : WeakObjectProperty
+      Component : WeakObjectProperty
+      BoneName : NameProperty
+      MyBoneName : NameProperty
+  Temp_delegate_Variable : DelegateProperty
+  CallFunc_BreakHitResult_bBlockingHit : BoolProperty
+  CallFunc_BreakHitResult_bInitialOverlap : BoolProperty
+  CallFunc_BreakHitResult_Time : FloatProperty
+  CallFunc_BreakHitResult_Distance : FloatProperty
+  CallFunc_BreakHitResult_Location : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_ImpactPoint : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_Normal : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_ImpactNormal : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_PhysMat : ObjectProperty
+  CallFunc_BreakHitResult_HitActor : ObjectProperty
+  CallFunc_BreakHitResult_HitComponent : ObjectProperty
+  CallFunc_BreakHitResult_HitBoneName : NameProperty
+  CallFunc_BreakHitResult_BoneName : NameProperty
+  CallFunc_BreakHitResult_HitItem : IntProperty
+  CallFunc_BreakHitResult_ElementIndex : IntProperty
+  CallFunc_BreakHitResult_FaceIndex : IntProperty
+  CallFunc_BreakHitResult_TraceStart : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_TraceEnd : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_bBlockingHit_1 : BoolProperty
+  CallFunc_BreakHitResult_bInitialOverlap_1 : BoolProperty
+  CallFunc_BreakHitResult_Time_1 : FloatProperty
+  CallFunc_BreakHitResult_Distance_1 : FloatProperty
+  CallFunc_BreakHitResult_Location_1 : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_ImpactPoint_1 : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_Normal_1 : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_ImpactNormal_1 : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_PhysMat_1 : ObjectProperty
+  CallFunc_BreakHitResult_HitActor_1 : ObjectProperty
+  CallFunc_BreakHitResult_HitComponent_1 : ObjectProperty
+  CallFunc_BreakHitResult_HitBoneName_1 : NameProperty
+  CallFunc_BreakHitResult_BoneName_1 : NameProperty
+  CallFunc_BreakHitResult_HitItem_1 : IntProperty
+  CallFunc_BreakHitResult_ElementIndex_1 : IntProperty
+  CallFunc_BreakHitResult_FaceIndex_1 : IntProperty
+  CallFunc_BreakHitResult_TraceStart_1 : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_BreakHitResult_TraceEnd_1 : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_K2_AttachToComponent_ReturnValue : BoolProperty
+  CallFunc_IsSimulatingPhysics_ReturnValue : BoolProperty
+  Temp_delegate_Variable_1 : DelegateProperty
+  CallFunc_K2_GetComponentLocation_ReturnValue : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_Conv_DoubleToVector_ReturnValue : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_K2_SetWorldLocation_SweepHitResult : StructProperty <HitResult>
+      FaceIndex : IntProperty
+      Time : FloatProperty
+      Distance : FloatProperty
+      Location : StructProperty <Vector_NetQuantize>
+      ImpactPoint : StructProperty <Vector_NetQuantize>
+      Normal : StructProperty <Vector_NetQuantizeNormal>
+      ImpactNormal : StructProperty <Vector_NetQuantizeNormal>
+      TraceStart : StructProperty <Vector_NetQuantize>
+      TraceEnd : StructProperty <Vector_NetQuantize>
+      PenetrationDepth : FloatProperty
+      MyItem : IntProperty
+      Item : IntProperty
+      ElementIndex : ByteProperty
+      bBlockingHit : BoolProperty
+      bStartPenetrating : BoolProperty
+      PhysMaterial : WeakObjectProperty
+      HitObjectHandle : StructProperty <ActorInstanceHandle>
+          ReferenceObject : WeakObjectProperty
+      Component : WeakObjectProperty
+      BoneName : NameProperty
+      MyBoneName : NameProperty
+  CallFunc_Conv_DoubleToVector_ReturnValue_1 : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_Multiply_VectorVector_ReturnValue : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_K2_GetComponentLocation_ReturnValue_1 : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_Add_VectorVector_ReturnValue : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_Subtract_VectorVector_ReturnValue : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_SpawnEmitterAtLocation_ReturnValue : ObjectProperty
+  CallFunc_Multiply_VectorVector_ReturnValue_1 : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_SpawnEmitterAtLocation_ReturnValue_1 : ObjectProperty
+  CallFunc_Add_VectorVector_ReturnValue_1 : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_PostEvent_ReturnValue : IntProperty
+  CallFunc_PostEvent_ReturnValue_1 : IntProperty
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:AttachtoEndSphere
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:SetAttachmentFinalized
+  Temp_delegate_Variable : DelegateProperty
+  Temp_delegate_Variable_1 : DelegateProperty
+  CallFunc_PostEvent_ReturnValue : IntProperty
+  CallFunc_PostEvent_ReturnValue_1 : IntProperty
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:SetCableAsleep
+  Asleep : BoolProperty
+  CallFunc_Not_PreBool_ReturnValue : BoolProperty
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:ForceSetAsleep
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:LoadBehavior
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:ChildAttached
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:SetUpFromDecorationInfo
+  Info : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  CallFunc_GetLocationFromTransform__ : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_K2_SetWorldLocation_SweepHitResult : StructProperty <HitResult>
+      FaceIndex : IntProperty
+      Time : FloatProperty
+      Distance : FloatProperty
+      Location : StructProperty <Vector_NetQuantize>
+      ImpactPoint : StructProperty <Vector_NetQuantize>
+      Normal : StructProperty <Vector_NetQuantizeNormal>
+      ImpactNormal : StructProperty <Vector_NetQuantizeNormal>
+      TraceStart : StructProperty <Vector_NetQuantize>
+      TraceEnd : StructProperty <Vector_NetQuantize>
+      PenetrationDepth : FloatProperty
+      MyItem : IntProperty
+      Item : IntProperty
+      ElementIndex : ByteProperty
+      bBlockingHit : BoolProperty
+      bStartPenetrating : BoolProperty
+      PhysMaterial : WeakObjectProperty
+      HitObjectHandle : StructProperty <ActorInstanceHandle>
+          ReferenceObject : WeakObjectProperty
+      Component : WeakObjectProperty
+      BoneName : NameProperty
+      MyBoneName : NameProperty
+  K2Node_VariableSet_CableLength_ImplicitCast : FloatProperty
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:ApplyDecorationSaveInfo
+  Guid : MapProperty
+  Success : BoolProperty
+  CallFunc_Map_Keys_Keys : ArrayProperty
+  CallFunc_Map_Find_Value : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  CallFunc_Map_Find_ReturnValue : BoolProperty
+  CallFunc_ApplySaveInfo_Success : BoolProperty
+=== /Game/Blueprints/Cables/BP_Decoration_Cable.BP_Decoration_Cable_C:UpdateDecorationInfoInManager
+  CallFunc_GetCableParticleLocations_Locations : ArrayProperty
+  CallFunc_GetObjectClass_ReturnValue : ClassProperty
+  CallFunc_GetParentDecGUID_ParentDecoration : StructProperty <Guid>
+      A : IntProperty
+      B : IntProperty
+      C : IntProperty
+      D : IntProperty
+  CallFunc_K2_GetComponentToWorld_ReturnValue : StructProperty <Transform>
+      Rotation : StructProperty <Quat>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+          W : DoubleProperty
+      Translation : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Scale3D : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+  CallFunc_IsValid_ReturnValue : BoolProperty
+  CallFunc_K2_GetComponentLocation_ReturnValue : StructProperty <Vector>
+      X : DoubleProperty
+      Y : DoubleProperty
+      Z : DoubleProperty
+  CallFunc_Map_Find_Value : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  CallFunc_Map_Find_ReturnValue : BoolProperty
+  K2Node_SetFieldsInStruct_StructOut : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  K2Node_SetFieldsInStruct_Length_32_96952E8A4D0D5866C7999080E30C3710_ImplicitCast : DoubleProperty
+=== /Game/Blueprints/Decorations/BP_Decoration.BP_Decoration_C:AttachDecToWorldHit
+  Hit : StructProperty <HitResult>
+      FaceIndex : IntProperty
+      Time : FloatProperty
+      Distance : FloatProperty
+      Location : StructProperty <Vector_NetQuantize>
+      ImpactPoint : StructProperty <Vector_NetQuantize>
+      Normal : StructProperty <Vector_NetQuantizeNormal>
+      ImpactNormal : StructProperty <Vector_NetQuantizeNormal>
+      TraceStart : StructProperty <Vector_NetQuantize>
+      TraceEnd : StructProperty <Vector_NetQuantize>
+      PenetrationDepth : FloatProperty
+      MyItem : IntProperty
+      Item : IntProperty
+      ElementIndex : ByteProperty
+      bBlockingHit : BoolProperty
+      bStartPenetrating : BoolProperty
+      PhysMaterial : WeakObjectProperty
+      HitObjectHandle : StructProperty <ActorInstanceHandle>
+          ReferenceObject : WeakObjectProperty
+      Component : WeakObjectProperty
+      BoneName : NameProperty
+      MyBoneName : NameProperty
+  Component : ObjectProperty
+=== /Game/Blueprints/Decorations/BP_Decoration.BP_Decoration_C:SetAttachmentFinalized
+=== /Game/Blueprints/Decorations/BP_Decoration.BP_Decoration_C:LoadBehavior
+=== /Game/Blueprints/Decorations/BP_Decoration.BP_Decoration_C:SetUpFromDecorationInfo
+  Info : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+=== /Game/Blueprints/Decorations/BP_Decoration.BP_Decoration_C:ApplyDecorationSaveInfo
+  Guid : MapProperty
+  Success : BoolProperty
+=== /Game/Blueprints/Decorations/BP_Decoration.BP_Decoration_C:OverrideSaveInfo
+  Info : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+=== /Game/Blueprints/Decorations/BP_Decoration.BP_Decoration_C:GetSaveInfo
+  Info : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  ReturnValue : BoolProperty
+  CallFunc_Map_Find_Value : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  CallFunc_Map_Find_ReturnValue : BoolProperty
+=== /Game/Blueprints/Decorations/BP_Decoration.BP_Decoration_C:ForceHit
+  Hit : StructProperty <HitResult>
+      FaceIndex : IntProperty
+      Time : FloatProperty
+      Distance : FloatProperty
+      Location : StructProperty <Vector_NetQuantize>
+      ImpactPoint : StructProperty <Vector_NetQuantize>
+      Normal : StructProperty <Vector_NetQuantizeNormal>
+      ImpactNormal : StructProperty <Vector_NetQuantizeNormal>
+      TraceStart : StructProperty <Vector_NetQuantize>
+      TraceEnd : StructProperty <Vector_NetQuantize>
+      PenetrationDepth : FloatProperty
+      MyItem : IntProperty
+      Item : IntProperty
+      ElementIndex : ByteProperty
+      bBlockingHit : BoolProperty
+      bStartPenetrating : BoolProperty
+      PhysMaterial : WeakObjectProperty
+      HitObjectHandle : StructProperty <ActorInstanceHandle>
+          ReferenceObject : WeakObjectProperty
+      Component : WeakObjectProperty
+      BoneName : NameProperty
+      MyBoneName : NameProperty
+=== /Game/Blueprints/Decorations/BP_Decoration.BP_Decoration_C:ApplyUserAdjustment
+  Type : ByteProperty
+  Value : StructProperty <Struct_AdjustmentRawData>
+      Float_2_DA197CAF4A187BB48BD912BC360C6031 : DoubleProperty
+      Bool_7_73560D444D3C409A0210D787351F6211 : BoolProperty
+      Int_9_B28930C54F77003ADE54918A464B77AD : IntProperty
+      String_11_F43B1642472E9B4BF1EDB1B117348794 : StrProperty
+      Vector_14_27032DEB4BDE64E9033F9487B2311D74 : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Validated_16_80D10EDF415EA41371A2D09FF70FC626 : BoolProperty
+  OverrideValue : BoolProperty
+=== /Game/Blueprints/DecorationManager/BP_DecorationManager.BP_DecorationManager_C:CreateDecorationFromSaveInfo
+  Guid : StructProperty <Guid>
+      A : IntProperty
+      B : IntProperty
+      C : IntProperty
+      D : IntProperty
+  Info : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  CallFunc_Array_Length_ReturnValue : IntProperty
+  CallFunc_GetPlayerRef_Player : ObjectProperty
+  CallFunc_Greater_IntInt_ReturnValue : BoolProperty
+  CallFunc_SpawnAndRegisterDecorationV2_NewDecoration : ObjectProperty
+  K2Node_DynamicCast_AsBP_Decoration_Cable : ObjectProperty
+  K2Node_DynamicCast_bSuccess : BoolProperty
+  CallFunc_K2_SetWorldLocation_SweepHitResult : StructProperty <HitResult>
+      FaceIndex : IntProperty
+      Time : FloatProperty
+      Distance : FloatProperty
+      Location : StructProperty <Vector_NetQuantize>
+      ImpactPoint : StructProperty <Vector_NetQuantize>
+      Normal : StructProperty <Vector_NetQuantizeNormal>
+      ImpactNormal : StructProperty <Vector_NetQuantizeNormal>
+      TraceStart : StructProperty <Vector_NetQuantize>
+      TraceEnd : StructProperty <Vector_NetQuantize>
+      PenetrationDepth : FloatProperty
+      MyItem : IntProperty
+      Item : IntProperty
+      ElementIndex : ByteProperty
+      bBlockingHit : BoolProperty
+      bStartPenetrating : BoolProperty
+      PhysMaterial : WeakObjectProperty
+      HitObjectHandle : StructProperty <ActorInstanceHandle>
+          ReferenceObject : WeakObjectProperty
+      Component : WeakObjectProperty
+      BoneName : NameProperty
+      MyBoneName : NameProperty
+=== /Game/Blueprints/DecorationManager/BP_DecorationManager.BP_DecorationManager_C:SpawnAndRegisterDecorationV2
+  Transform : StructProperty <Transform>
+      Rotation : StructProperty <Quat>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+          W : DoubleProperty
+      Translation : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Scale3D : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+  Parent : StructProperty <Guid>
+      A : IntProperty
+      B : IntProperty
+      C : IntProperty
+      D : IntProperty
+  NewStyle Data : ObjectProperty
+  Register : BoolProperty
+  Player : ObjectProperty
+  Force GUID (optional) : StructProperty <Guid>
+      A : IntProperty
+      B : IntProperty
+      C : IntProperty
+      D : IntProperty
+  Force Info (Optional) : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  NewDecoration : ObjectProperty
+  SpawnTransform : StructProperty <Transform>
+      Rotation : StructProperty <Quat>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+          W : DoubleProperty
+      Translation : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Scale3D : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+  NewSaveInfo : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  NewDec : ObjectProperty
+  Temp_bool_Variable : BoolProperty
+  Temp_bool_Variable_1 : BoolProperty
+  Temp_byte_Variable : ByteProperty
+  Temp_class_Variable : ClassProperty
+  CallFunc_IsValid_Guid_ReturnValue : BoolProperty
+  CallFunc_IsValid_Guid_ReturnValue_1 : BoolProperty
+  K2Node_Select_Default : StructProperty <Transform>
+      Rotation : StructProperty <Quat>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+          W : DoubleProperty
+      Translation : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Scale3D : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+  CallFunc_FinishDeferredSpawn_ReturnValue : ObjectProperty
+  K2Node_DynamicCast_AsBP_Decoration : ObjectProperty
+  K2Node_DynamicCast_bSuccess : BoolProperty
+  CallFunc_GetObjectClass_ReturnValue : ClassProperty
+  CallFunc_NewGuid_ReturnValue : StructProperty <Guid>
+      A : IntProperty
+      B : IntProperty
+      C : IntProperty
+      D : IntProperty
+  CallFunc_IsValid_Guid_ReturnValue_2 : BoolProperty
+  K2Node_Select_Default_1 : StructProperty <Guid>
+      A : IntProperty
+      B : IntProperty
+      C : IntProperty
+      D : IntProperty
+  CallFunc_MakeUserAdjustMapFromAdjustmentConfigs_Map : MapProperty
+  K2Node_MakeStruct_Struct_DecorationSaveInfo : StructProperty <Struct_DecorationSaveInfo>
+      GUID_40_8CEB54CB4370901697C12EAAA5622738 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      Class_38_07E9BBC945681DD2B30A67AE86A668A3 : ClassProperty
+      StartTransform_54_CA43A55D4AB4AEE8AFACFE94C75A2249 : StructProperty <Transform>
+          Rotation : StructProperty <Quat>
+          Translation : StructProperty <Vector>
+          Scale3D : StructProperty <Vector>
+      EndLocation_34_CD0BDC6340F777CA608C0DADC3997CFE : StructProperty <Vector>
+          X : DoubleProperty
+          Y : DoubleProperty
+          Z : DoubleProperty
+      Length_32_96952E8A4D0D5866C7999080E30C3710 : DoubleProperty
+      ActorRef_30_1628099C45F5C07BEFA560915FF694C4 : ObjectProperty
+      ParentDecoration_28_E4A99FBE4819F4C06E8E20A8712D0013 : StructProperty <Guid>
+          A : IntProperty
+          B : IntProperty
+          C : IntProperty
+          D : IntProperty
+      UserAttacherAdjustment_52_5C8A6E224C39074EB2A2AB9321504D81 : MapProperty
+      DecStyleInfo_48_20810CE44AA9DB54BD391792181AC115 : ObjectProperty
+      ParticlePositions_58_28DA0FB54E7A5EA37BE327BA13DD364A : ArrayProperty
+  CallFunc_Array_Random_OutItem : ClassProperty
+  CallFunc_Array_Random_OutIndex : IntProperty
+  K2Node_Select_Default_2 : ClassProperty
+  CallFunc_BeginDeferredSpawn_ReturnValue : ObjectProperty
+  K2Node_DynamicCast_AsBP_Decoration_1 : ObjectProperty
+  K2Node_DynamicCast_bSuccess_1 : BoolProperty
