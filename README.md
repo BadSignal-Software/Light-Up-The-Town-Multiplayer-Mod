@@ -21,7 +21,7 @@ A multiplayer modification for **Light Up The Town**, created by **ShadowCanvas8
 
 If you have anything that could help us, please [open an issue](../../issues) on this repository.
 
-- ‼️This mod also comes with a mod manager.‼️
+- ‼️This mod also comes with a mod manager, which is a dependency.‼️
 
 ---
 
