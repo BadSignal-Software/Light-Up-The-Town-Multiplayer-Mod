@@ -1,7 +1,7 @@
 # Light Up The Town - Multiplayer Mod (Lutt-Net) 💡🌐
 
 [![Status](https://img.shields.io/badge/Status-Alpha%20Development-orange)](#)
-[![Version](https://img.shields.io/badge/Version-v0.11-blue)](#)
+[![Version](https://img.shields.io/badge/Version-v0.17-blue)](#)
 [![Engine](https://img.shields.io/badge/Engine-Unreal%20Engine%204%2F5-informational)](#)
 [![Build Stability](https://img.shields.io/badge/Current%20Build-Unstable-red)](#)
 
