@@ -15,9 +15,9 @@ A multiplayer modification for **Light Up The Town**, created by **ShadowCanvas8
 
 **Lutt-Net** aims to bring seamless multiplayer functionality to *Light Up The Town*.
 
-- **Estimated completion:** 1–2 months (✅ currently on track)
+- **Estimated completion:** 1 month (⚠️ Most likely done by deadline)
 - **Newest addition:** Bean (temporary player model) and animations
-- **Main problems:** Light syncing and textures
+- **Main problems:** Light syncing and textures - we are very close to fixing this
 
 If you have anything that could help us, please [open an issue](../../issues) on this repository.
 
