@@ -1,7 +1,7 @@
 # Light Up The Town - Multiplayer Mod (Lutt-Net) 💡🌐
 
 [![Status](https://img.shields.io/badge/Status-Alpha%20Development-orange)](#)
-[![Version](https://img.shields.io/badge/Version-v0.17-blue)](#)
+[![Version](https://img.shields.io/badge/Version-v0.20-blue)](#)
 [![Engine](https://img.shields.io/badge/Engine-Unreal%20Engine%204%2F5-informational)](#)
 [![Build Stability](https://img.shields.io/badge/Current%20Build-Unstable-red)](#)
 
@@ -36,7 +36,7 @@ If you have anything that could help us, please [open an issue](../../issues) on
 
 ## ⚡ Current Status & Features
 
-- **Current version:** `v0.17`
+- **Current version:** `v0.20`
 - **Development phase:** Early alpha
 - **Build stability:** Unstable
 - **Core architecture:** UE4SS injection + Python bridge (`bridge.py`)
